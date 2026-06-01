@@ -21,4 +21,9 @@ export default async function Page() {
   );
 }
 
+
+const { data, error } = await supabase.from("courses").select("*");
+
+console.log("DATA:", data);
+console.log("ERROR:", error);
 // deploy fix
