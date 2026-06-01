@@ -1,5 +1,5 @@
-import Sidebar from "../components/Sidebar";
-import BentoGrid from "../components/BentoGrid";
+import Sidebar from "@/components/Sidebar";
+import BentoGrid from "@/components/BentoGrid";
 import { supabase } from "@/lib/supabase";
 
 export default async function Page() {
